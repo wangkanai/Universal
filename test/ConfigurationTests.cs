@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Configuration;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
     public class ConfigurationTests
     {
@@ -15,12 +16,12 @@ namespace Wangkanai.Universal.Tests
         [Fact]
         public void TestConfigAccount()
         {
-            Assert.AreEqual("UA-XXXX-Y", config.Account);
+            Assert.Equal("UA-XXXX-Y", config.Account);
         }
         [Fact]
         public void TestConfigProperty()
         {
-            Assert.AreEqual("sathorn.co.th", config.Property);
+            Assert.Equal("sathorn.co.th", config.Property);
         }
     }
 }

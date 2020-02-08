@@ -1,6 +1,7 @@
 ﻿using System;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
     public class PageviewTests
     {
@@ -8,19 +9,19 @@ namespace Wangkanai.Universal.Tests
         public void TestPageviewToString()
         {
             Pageview pageview = new Pageview("/testing", "testing title");
-            Assert.AreEqual("ga('send','pageview',{'Page':'/testing','Title':'testing title'});", pageview.ToString());
+            Assert.Equal("ga('send','pageview',{'Page':'/testing','Title':'testing title'});", pageview.ToString());
         }
         [Fact]
         public void TestPageviewProperty()
         {
             var option = new PageviewOption() { Page = "/testing", Title = "test" };
-            Assert.AreEqual(2, option.Properties.Length);
+            Assert.Equal(2, option.Properties.Length);
         }
         [Fact]
         public void TestBooleanParameter()
         {
             PageviewOption pageview = new PageviewOption() { AnonymizeIp = true };
-            Assert.AreEqual("{'AnonymizeIp':True}", pageview.ToString());
+            Assert.Equal("{'AnonymizeIp':True}", pageview.ToString());
         }
         [Fact]
         public void TestPageviewJsScript()

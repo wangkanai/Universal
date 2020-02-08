@@ -1,6 +1,7 @@
 ﻿using System;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
     public class EnhancedTests
     {
@@ -13,7 +14,7 @@ namespace Wangkanai.Universal.Tests
             config.EnhancedDuration = 45;
             config.EnhancedLevels = 5;
             var enhanced = new EnhancedLink(config);
-            Assert.AreEqual("ga('require', 'linkid', 'linkid.js', {'CookieName':'_ela','Duration':45,'Levels':5});", enhanced.ToString());
+            Assert.Equal("ga('require', 'linkid', 'linkid.js', {'CookieName':'_ela','Duration':45,'Levels':5});", enhanced.ToString());
         }
 
         [Fact]
@@ -21,7 +22,7 @@ namespace Wangkanai.Universal.Tests
         {
             var config = new Configuration();
             var enhanced = new EnhancedLink(config);
-            Assert.AreEqual("ga('require', 'linkid', 'linkid.js');", enhanced.ToString());
+            Assert.Equal("ga('require', 'linkid', 'linkid.js');", enhanced.ToString());
         }
     }
 }

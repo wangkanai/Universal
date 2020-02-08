@@ -1,6 +1,7 @@
 ﻿using System;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
     public class RequireTests
     {
@@ -9,7 +10,7 @@ namespace Wangkanai.Universal.Tests
         {
             var config = (Configuration)System.Configuration.ConfigurationManager.GetSection("AnalyticConfigurationSettings/AnalyticConfiguration");
             var require = new DisplayFeatures(config);
-            Assert.AreEqual("ga('require', 'displayfeatures');", require.ToString());
+            Assert.Equal("ga('require', 'displayfeatures');", require.ToString());
         }
     }
 }

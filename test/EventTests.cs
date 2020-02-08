@@ -1,6 +1,7 @@
 ﻿using System;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
     public class EventTests
     {
@@ -8,7 +9,7 @@ namespace Wangkanai.Universal.Tests
         public void TestEventCategoryOnly()
         {
             Event categoryevent = new Event("button","click","submit","1");
-            Assert.AreEqual("'event','button','click','submit','1'", categoryevent.ToString());
+            Assert.Equal("'event','button','click','submit','1'", categoryevent.ToString());
         }
     }
 }
