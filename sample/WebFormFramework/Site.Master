@@ -1,5 +1,4 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebFormFramework.SiteMaster" %>
-<%@ Import Namespace="Wangkanai.Universal" %>
 
 <!DOCTYPE html>
 
@@ -11,7 +10,7 @@
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
-        <%= Analytic.Instance.Render(AnalyticsSession) %>
+        <%= Wangkanai.Universal.Analytic.Instance.Render(AnalyticsSession) %>
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
@@ -63,7 +62,7 @@
         <div class="container body-content">
             <h2><%: Page.Title %></h2>
             <hr />
-            <pre><code><%: Analytic.Instance.Render(AnalyticsSession) %></code></pre>
+            <pre><code><%: Wangkanai.Universal.Analytic.Instance.Render(AnalyticsSession) %></code></pre>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
