@@ -3,7 +3,7 @@
     <TargetFramework>net45</TargetFramework>
     <PackageId>universal-analytics</PackageId>
     
-    <Version>1.1</Version>
+    <Version>1.2</Version>
 
     <Authors>Sarin Na Wangkanai</Authors>
     <Description>Wangkanai Analytics is a .NET Framework lightweight server-side code that generator library that JavaScript client-side on the fly for Google Analytics analytics.js. The goal of the framework is to stay out of the way as much as possible and provide a super interaction with Google all from C#.</Description>
