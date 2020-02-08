@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal.Tests", "test\Wangkanai.Universal.Tests.csproj", "{2340A951-1744-4AE8-B552-3764803AB825}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asset", "asset", "{68C5F5A5-E682-4C85-9FF9-164AA4A5A58E}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 5

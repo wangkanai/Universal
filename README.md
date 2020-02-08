@@ -5,32 +5,12 @@
 ### What is Google Universal Analytics?
 Wangkanai Analytics is a [.NET Core](https://dotnet.github.io/) lightweight server-side code that generator library that JavaScript client-side on the fly for [Google Analytics **analytics.js**](https://developers.google.com/analytics/devguides/collection/analyticsjs/). The goal of the framework is to stay out of the way as much as possible and provide a super interaction with Google all from C#.
 
-### Installation
 
-Add the NuGet package to your project.
+#### How do i use it?
 
-```
-PM> install-package Wangkanai.Analytics -pre
-```
+This project provide the full source code and complied dll library for you to add reference into your visual studio projects. The library include Intellisense to help guide you write server-side code in an effective manner.
 
-Add the service to your web app.
-
-```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    // Add application services.
-    services.AddAnalytics("UA-XXXX-Y");
-
-    // Add framework services.
-    services.AddMvc();    
-}
-```
-
-#### Using IntelliSense
-
-![AddAnalytics IntelliSense](wiki/images/AddAnalytics-Intellisense.png)
-
-![AddAnalytics TrackerId](wiki/images/AddAnalytics-trackerId.png)
+![AddAnalytics IntelliSense](asset/vs-Intellisense.png)
 
 #### Official Plugins extensions
 - [Display Features](https://developers.google.com/analytics/devguides/collection/analyticsjs/display-features)
