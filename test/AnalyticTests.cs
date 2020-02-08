@@ -1,14 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
 using Wangkanai.Universal.Ecommerce;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
-    [TestClass]
     public class AnalyticTests
     {
-        [TestMethod]
+        [Fact]
         public void TestUniversalAnalyticJavascriptLibraryScript()
         {
             Analytic analytic = Analytic.Instance;
@@ -18,16 +17,16 @@ namespace Wangkanai.Universal.Tests
             ModelScript.AppendLine("(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),");
             ModelScript.AppendLine("m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)");
             ModelScript.AppendLine("})(window,document,'script','//www.google-analytics.com/analytics.js','ga');");
-            Assert.AreEqual(ModelScript.ToString(), analytic.JsUniversalAnalyticJavascriptLibrary());
+            Assert.Equal(ModelScript.ToString(), analytic.JsUniversalAnalyticJavascriptLibrary());
         }
-        [TestMethod]
+        [Fact]
         public void TestCreateTrackerObjectWithoutCookie()
         {
             var config = new Configuration();
             var create = new Create(config);
-            Assert.AreEqual("ga('create', 'UA-XXXX-Y', 'auto');", create.ToString());
+            Assert.Equal("ga('create', 'UA-XXXX-Y', 'auto');", create.ToString());
         }
-        [TestMethod]  
+        [Fact]  
         public void TestScriptBlockWrite()
         {
             var analytic = Analytic.Instance;

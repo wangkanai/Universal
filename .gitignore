@@ -253,3 +253,4 @@ paket-files/
 
 # Project
 **/wwwroot/lib/
+.idea/

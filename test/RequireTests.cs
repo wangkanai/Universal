@@ -1,17 +1,16 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
-    [TestClass]
     public class RequireTests
     {
-        [TestMethod]
+        [Fact]
         public void TestDisplayFeature()
         {
             var config = (Configuration)System.Configuration.ConfigurationManager.GetSection("AnalyticConfigurationSettings/AnalyticConfiguration");
             var require = new DisplayFeatures(config);
-            Assert.AreEqual("ga('require', 'displayfeatures');", require.ToString());
+            Assert.Equal("ga('require', 'displayfeatures');", require.ToString());
         }
     }
 }

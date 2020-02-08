@@ -1,12 +1,11 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
-    [TestClass]
     public class EnhancedTests
     {
-        [TestMethod]
+        [Fact]
         public void TestEnhancedWithCookie()
         {
             var config = new Configuration();
@@ -15,15 +14,15 @@ namespace Wangkanai.Universal.Tests
             config.EnhancedDuration = 45;
             config.EnhancedLevels = 5;
             var enhanced = new EnhancedLink(config);
-            Assert.AreEqual("ga('require', 'linkid', 'linkid.js', {'CookieName':'_ela','Duration':45,'Levels':5});", enhanced.ToString());
+            Assert.Equal("ga('require', 'linkid', 'linkid.js', {'CookieName':'_ela','Duration':45,'Levels':5});", enhanced.ToString());
         }
 
-        [TestMethod]
+        [Fact]
         public void TestEnhancedWithoutCookie()
         {
             var config = new Configuration();
             var enhanced = new EnhancedLink(config);
-            Assert.AreEqual("ga('require', 'linkid', 'linkid.js');", enhanced.ToString());
+            Assert.Equal("ga('require', 'linkid', 'linkid.js');", enhanced.ToString());
         }
     }
 }

@@ -1,16 +1,15 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
-    [TestClass]
     public class EventTests
     {
-        [TestMethod]
+        [Fact]
         public void TestEventCategoryOnly()
         {
             Event categoryevent = new Event("button","click","submit","1");
-            Assert.AreEqual("'event','button','click','submit','1'", categoryevent.ToString());
+            Assert.Equal("'event','button','click','submit','1'", categoryevent.ToString());
         }
     }
 }

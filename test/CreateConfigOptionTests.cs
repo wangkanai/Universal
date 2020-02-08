@@ -1,19 +1,18 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
-    [TestClass]
     public class CreateConfigOptionTests
     {
-        [TestMethod]
+        [Fact]
         public void TestSessionWithTrackerName()
         {
             var session = new Session();
             session.Name = "info";
             var config = new Configuration();
             var create = new Create(config, new ConfigOption(config, session));
-            Assert.AreEqual("ga('create', 'UA-XXXX-Y', 'auto', {'Name':'info'});", create.ToString());
+            Assert.Equal("ga('create', 'UA-XXXX-Y', 'auto', {'Name':'info'});", create.ToString());
         }
     }
 }
