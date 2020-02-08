@@ -14,6 +14,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/wangkanai/universal</RepositoryUrl>
     <PackageIconUrl>http://0.gravatar.com/avatar/f58457d38ab3bc43526c6e52af17494e</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     
   </PropertyGroup>
   
