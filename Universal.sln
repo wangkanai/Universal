@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormFramework", "sample\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal.Tests", "test\Wangkanai.Universal.Tests.csproj", "{1DEAA381-3FA4-4676-A94C-69FC1CEC41AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal.TestsOld", "test-old\Wangkanai.Universal.TestsOld.csproj", "{2340A951-1744-4AE8-B552-3764803AB825}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{1DEAA381-3FA4-4676-A94C-69FC1CEC41AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DEAA381-3FA4-4676-A94C-69FC1CEC41AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEAA381-3FA4-4676-A94C-69FC1CEC41AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2340A951-1744-4AE8-B552-3764803AB825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2340A951-1744-4AE8-B552-3764803AB825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2340A951-1744-4AE8-B552-3764803AB825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2340A951-1744-4AE8-B552-3764803AB825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
