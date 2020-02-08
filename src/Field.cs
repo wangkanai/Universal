@@ -13,7 +13,7 @@ namespace Wangkanai.Universal
 
         public override string ToString()
         {
-            string js = "";
+            var js = "";
             foreach (var property in Properties)
             {
                 js += string.Format(format, property.Name, FormatValue(property.GetValue(this, null)));
