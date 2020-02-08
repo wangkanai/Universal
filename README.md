@@ -50,5 +50,3 @@ This original library that was introduced in [CodePlex](https://archive.codeplex
 #### How do i contribute?
 Universal Analytics is a powerful and continuous improving platform. We would like to invite developers to help maintain and add features so that this library is keep aligned with most of the popular web analytics out there. 
 
-
-![mvc showcase](https://raw.githubusercontent.com/wangkanai/analytics/master/Analytics/wiki/Universal-Analytics-Mvc.png)
