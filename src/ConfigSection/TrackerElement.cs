@@ -1,4 +1,6 @@
-﻿namespace Wangkanai.Universal.ConfigSection
+﻿using System.Configuration;
+
+namespace Wangkanai.Universal.ConfigSection
 {
     class TrackerElement : ConfigurationElement
     {

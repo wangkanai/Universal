@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.1</TargetFramework>
+    <TargetFramework>net45</TargetFramework>
     <PackageId>universal-analytics</PackageId>
     
     <Version>1.1</Version>

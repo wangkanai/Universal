@@ -1,4 +1,6 @@
-﻿namespace Wangkanai.Universal
+﻿using System.Configuration;
+
+namespace Wangkanai.Universal
 {
     public class Configuration : ConfigurationSection
     {
