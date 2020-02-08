@@ -1,43 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{52F4E1F6-D36A-4BAE-98C0-855267FBE6CF}"
-ProjectSection(SolutionItems) = preProject
-	.gitignore = .gitignore
-	README.md = README.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal", "src\Wangkanai.Universal.csproj", "{A5378070-E2E0-486D-9264-8B8DE8B99DDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal.Tests", "test\Wangkanai.Universal.Tests.csproj", "{2340A951-1744-4AE8-B552-3764803AB825}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asset", "asset", "{68C5F5A5-E682-4C85-9FF9-164AA4A5A58E}"
+	ProjectSection(SolutionItems) = preProject
+		asset\vs-intellisense.png = asset\vs-intellisense.png
+		asset\web-sample.png = asset\web-sample.png
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "sample\MvcApp\MvcApp.csproj", "{ED2B46F0-C896-492D-808B-EE3BF8B7BE05}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs31
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Analytics\\Analytics.csproj
-		SccProjectName1 = Analytics
-		SccLocalPath1 = Analytics
-		SccProjectUniqueName2 = Test\\Analytics.Tests.csproj
-		SccProjectName2 = Test
-		SccLocalPath2 = Test
-		SccProjectUniqueName3 = Analytics.Mvc\\Analytics.Mvc.csproj
-		SccProjectName3 = Analytics.Mvc
-		SccLocalPath3 = Analytics.Mvc
-		SccProjectUniqueName4 = Analytics.Web\\Analytics.Web.csproj
-		SccProjectName4 = Analytics.Web
-		SccLocalPath4 = Analytics.Web
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -61,5 +47,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ED2B46F0-C896-492D-808B-EE3BF8B7BE05} = {6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FDFCC3E-4C24-4CC5-AE18-3641AB142F07}
 	EndGlobalSection
 EndGlobal
