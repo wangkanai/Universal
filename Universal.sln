@@ -21,8 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asset", "asset", "{68C5F5A5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "sample\MvcApp\MvcApp.csproj", "{ED2B46F0-C896-492D-808B-EE3BF8B7BE05}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFramework", "sample\WebAppFramework\WebAppFramework.csproj", "{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}"
 EndProject
 Global
@@ -39,10 +37,6 @@ Global
 		{2340A951-1744-4AE8-B552-3764803AB825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2340A951-1744-4AE8-B552-3764803AB825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2340A951-1744-4AE8-B552-3764803AB825}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED2B46F0-C896-492D-808B-EE3BF8B7BE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED2B46F0-C896-492D-808B-EE3BF8B7BE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED2B46F0-C896-492D-808B-EE3BF8B7BE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED2B46F0-C896-492D-808B-EE3BF8B7BE05}.Release|Any CPU.Build.0 = Release|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -52,7 +46,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ED2B46F0-C896-492D-808B-EE3BF8B7BE05} = {6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF} = {6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
