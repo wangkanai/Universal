@@ -110,7 +110,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Cookie.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Ecommerce.aspx" />
     <Content Include="Event.aspx" />
@@ -165,13 +164,6 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Cookie.aspx.cs">
-      <DependentUpon>Cookie.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Cookie.aspx.designer.cs">
-      <DependentUpon>Cookie.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
