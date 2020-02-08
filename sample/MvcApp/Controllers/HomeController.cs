@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Analytics.Mvc.Controllers
+namespace MvcApp.Controllers
 {
     public class HomeController : Controller
     {

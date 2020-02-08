@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Analytics.Mvc
+namespace MvcApp
 {
     public class FilterConfig
     {
