@@ -3,56 +3,30 @@
 [![NuGet Pre Release](https://img.shields.io/nuget/vpre/Wangkanai.Universal.svg?maxAge=3600)](https://www.nuget.org/packages/Wangkanai.Universal/)
 
 ### What is Google Universal Analytics?
-Wangkanai Analytics is a [.NET Core](https://dotnet.github.io/) lightweight server-side code that generator library that JavaScript client-side on the fly for [Google Analytics **analytics.js**](https://developers.google.com/analytics/devguides/collection/analyticsjs/). The goal of the framework is to stay out of the way as much as possible and provide a super interaction with Google all from C#.
-
+Wangkanai Analytics is a [.NET Framework](https://docs.microsoft.com/en-gb/aspnet/overview) lightweight server-side code that generator library that JavaScript client-side on the fly for [Google Analytics **analytics.js**](https://developers.google.com/analytics/devguides/collection/analyticsjs/). The goal of the framework is to stay out of the way as much as possible and provide a super interaction with Google all from C#.
 
 #### How do i use it?
 
 This project provide the full source code and complied dll library for you to add reference into your visual studio projects. The library include Intellisense to help guide you write server-side code in an effective manner.
 
-![AddAnalytics IntelliSense](asset/vs-Intellisense.png)
+```csharp
+
+```
+
+### Features
+
+![IntelliSense](asset/vs-Intellisense.png)
+
+### Demo
+
+![Mvc Demo Web App](asset/web-sample.png)
 
 #### Official Plugins extensions
 - [Display Features](https://developers.google.com/analytics/devguides/collection/analyticsjs/display-features)
 - [Enhanced link attribution](https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-link-attribution)
 - [Linker](https://developers.google.com/analytics/devguides/collection/analyticsjs/linker)
-```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    // Add application services.
-    services.AddAnalytics("UA-XXXX-Y")
-        .AddDisplayFeatures()
-        .AddLinkAttribution()
-        .AddLinker(); 
 
-    // Add framework services.
-    services.AddMvc();       
-}
-```
-- [Ecommerce](https://developers.google.com/analytics/devguides/collection/analyticsjs/ecommerce)
-```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    // Add application services.
-    services.AddAnalytics("UA-XXXX-Y")
-        .AddEcommerce();        
 
-    // Add framework services.
-    services.AddMvc();
-}
-```
-- [Enhanced Ecommerce](https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce)
-```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    // Add application services.
-    services.AddAnalytics("UA-XXXX-Y")
-        .AddEcommerceEnhanced(); 
-
-    // Add framework services.
-    services.AddMvc();       
-}
-```
 
 #### Where it originated from?
 This original library that was introduced in [CodePlex](https://archive.codeplex.com/?p=universalanalytics). The library was for .NET Framework web application to render **analytics.js** javascript client-side to interact with Google API from .NET language web application within the server-side code environment. Both ASP.NET WebForm and ASP.NET MVC. Its was good, but we would like to see a much more extensible and ambust platform, so we are rewriting the entire framework.
