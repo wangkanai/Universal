@@ -3,7 +3,7 @@ using System.Text;
 using Wangkanai.Universal.Ecommerce;
 using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
     public class AnalyticTests
     {

@@ -1,6 +1,7 @@
 ﻿using System;
+using Xunit;
 
-namespace Wangkanai.Universal.Tests
+namespace Wangkanai.Universal
 {
     public class CreateConfigOptionTests
     {
@@ -11,7 +12,7 @@ namespace Wangkanai.Universal.Tests
             session.Name = "info";
             var config = new Configuration();
             var create = new Create(config, new ConfigOption(config, session));
-            Assert.AreEqual("ga('create', 'UA-XXXX-Y', 'auto', {'Name':'info'});", create.ToString());
+            Assert.Equal("ga('create', 'UA-XXXX-Y', 'auto', {'Name':'info'});", create.ToString());
         }
     }
 }
