@@ -21,11 +21,11 @@ This project provide the full source code and complied dll library for you to ad
 ```csharp
 public ActionResult Ecommerce()
 {
-    Analytics.Session session = new Session();
+    var session = new Wangkanai.Universal.Session();
     session.Transaction = new Transaction("1234", "store", 1.0, 1.0);
     session.Transaction.Items.Add(new Item("product a", "a001", "xxx", 2.0, 1));
     session.Transaction.Items.Add(new Item("product b", "b001", "yyy", 3.0, 2));
-    ViewBag.AnalyticSession = session;
+    ViewBag.AnalyticsSession = session;
     return View();
 }
 ```
