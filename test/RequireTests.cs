@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Analytics.Tests
+namespace Wangkanai.Universal.Tests
 {
     [TestClass]
     public class RequireTests

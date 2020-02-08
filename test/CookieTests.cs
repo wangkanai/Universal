@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
 
-namespace Analytics.Tests
+namespace Wangkanai.Universal.Tests
 {
     [TestClass]
     public class CookieTests

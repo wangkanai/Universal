@@ -1,9 +1,8 @@
-## [Wangkanai Analytics](http://analytics.wangkanai.org/)
+## Google Universal Analytics
 
-[![Build status](https://ci.appveyor.com/api/projects/status/t46adtm386rxiqam?svg=true)](https://ci.appveyor.com/project/wangkanai/analytics) 
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Wangkanai.Analytics.svg?maxAge=3600)](https://www.nuget.org/packages/Wangkanai.Analytics/)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Wangkanai.Universal.svg?maxAge=3600)](https://www.nuget.org/packages/Wangkanai.Universal/)
 
-### What is Wangkanai Analytics?
+### What is Google Universal Analytics?
 Wangkanai Analytics is a [.NET Core](https://dotnet.github.io/) lightweight server-side code that generator library that JavaScript client-side on the fly for [Google Analytics **analytics.js**](https://developers.google.com/analytics/devguides/collection/analyticsjs/). The goal of the framework is to stay out of the way as much as possible and provide a super interaction with Google all from C#.
 
 ### Installation

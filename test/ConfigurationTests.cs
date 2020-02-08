@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Analytics.Tests
+namespace Wangkanai.Universal.Tests
 {
     [TestClass]
     public class ConfigurationTests

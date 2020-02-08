@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Analytics.Ecommerce;
+using Wangkanai.Universal.Ecommerce;
 
-namespace Analytics.Tests
+namespace Wangkanai.Universal.Tests
 {
     [TestClass]
     public class TransactionTests

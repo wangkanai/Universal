@@ -6,8 +6,8 @@
     <ProjectGuid>{2340A951-1744-4AE8-B552-3764803AB825}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Analytics.Tests</RootNamespace>
-    <AssemblyName>Analytics.Tests</AssemblyName>
+    <RootNamespace>Wangkanai.Universal.Tests</RootNamespace>
+    <AssemblyName>Wangkanai.Universal.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -72,9 +72,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Analytics\Analytics.csproj">
+    <ProjectReference Include="..\src\Wangkanai.Universal.csproj">
       <Project>{a5378070-e2e0-486d-9264-8b8de8b99dde}</Project>
-      <Name>Analytics</Name>
+      <Name>Wangkanai.Universal</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

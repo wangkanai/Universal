@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Analytics.Ecommerce;
+using Wangkanai.Universal.Ecommerce;
 
-namespace Analytics.Tests
+namespace Wangkanai.Universal.Tests
 {
     [TestClass]
     public class ItemTests
