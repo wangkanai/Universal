@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebFormFramework.SiteMaster" %>
+<%@ Import Namespace="Wangkanai.Universal" %>
 
 <!DOCTYPE html>
 
@@ -6,10 +7,11 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Google Universal Analytics</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
+        <%= Analytic.Instance.Render(AnalyticsSession) %>
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
@@ -46,23 +48,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">Universal Analytics</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/">Index</a></li>
+                        <li><a runat="server" href="~/Cookie">Cookie</a></li>
+                        <li><a runat="server" href="~/Pageview">Pageview</a></li>
+                        <li><a runat="server" href="~/Event">Event</a></li>
+                        <li><a runat="server" href="~/Ecommerce">Ecommerce</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="container body-content">
+            <h2><%: Page.Title %></h2>
+            <hr />
+            <pre><code><%: Analytic.Instance.Render(AnalyticsSession) %></code></pre>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Google Universal Analytics</p>
             </footer>
         </div>
 
