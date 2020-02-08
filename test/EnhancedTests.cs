@@ -1,12 +1,10 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Wangkanai.Universal.Tests
 {
-    [TestClass]
     public class EnhancedTests
     {
-        [TestMethod]
+        [Fact]
         public void TestEnhancedWithCookie()
         {
             var config = new Configuration();
@@ -18,7 +16,7 @@ namespace Wangkanai.Universal.Tests
             Assert.AreEqual("ga('require', 'linkid', 'linkid.js', {'CookieName':'_ela','Duration':45,'Levels':5});", enhanced.ToString());
         }
 
-        [TestMethod]
+        [Fact]
         public void TestEnhancedWithoutCookie()
         {
             var config = new Configuration();

@@ -1,12 +1,10 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Wangkanai.Universal.Tests
 {
-    [TestClass]
     public class CreateConfigOptionTests
     {
-        [TestMethod]
+        [Fact]
         public void TestSessionWithTrackerName()
         {
             var session = new Session();

@@ -1,13 +1,11 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
 
 namespace Wangkanai.Universal.Tests
 {
-    [TestClass]
     public class CookieTests
     {
-        [TestMethod]
+        [Fact]
         public void TestCookieToJs()
         {
             var config = new Configuration();
@@ -20,7 +18,7 @@ namespace Wangkanai.Universal.Tests
                 "ga('create', 'UA-XXXX-Y', 'auto', {'CookieDomain':'www.sathai.com','CookieName':'sathai','CookieExpires':20000});",
                 create.ToString());
         }
-        [TestMethod]
+        [Fact]
         public void TestCookieToString()
         {
             var config = new Configuration();
@@ -31,7 +29,7 @@ namespace Wangkanai.Universal.Tests
             Assert.AreEqual("{'CookieDomain':'www.sathai.com','CookieName':'sathai','CookieExpires':20000}",
                 option.ToString());
         }
-        [TestMethod]
+        [Fact]
         public void TestToStringDomainOnly()
         {
             var config = new Configuration();
@@ -40,7 +38,7 @@ namespace Wangkanai.Universal.Tests
             Assert.AreEqual("{'CookieDomain':'www.sathai.com'}",
                 option.ToString());
         }
-        [TestMethod]
+        [Fact]
         public void TestToStringDomainAndExpires()
         {
             var config = new Configuration();

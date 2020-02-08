@@ -1,30 +1,28 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Wangkanai.Universal.Tests
 {
-    [TestClass]
     public class PageviewTests
     {
-        [TestMethod]
+        [Fact]
         public void TestPageviewToString()
         {
             Pageview pageview = new Pageview("/testing", "testing title");
             Assert.AreEqual("ga('send','pageview',{'Page':'/testing','Title':'testing title'});", pageview.ToString());
         }
-        [TestMethod]
+        [Fact]
         public void TestPageviewProperty()
         {
             var option = new PageviewOption() { Page = "/testing", Title = "test" };
             Assert.AreEqual(2, option.Properties.Length);
         }
-        [TestMethod]
+        [Fact]
         public void TestBooleanParameter()
         {
             PageviewOption pageview = new PageviewOption() { AnonymizeIp = true };
             Assert.AreEqual("{'AnonymizeIp':True}", pageview.ToString());
         }
-        [TestMethod]
+        [Fact]
         public void TestPageviewJsScript()
         {
             var session = new Session();

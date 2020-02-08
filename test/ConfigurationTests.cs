@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Configuration;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Wangkanai.Universal.Tests
 {
-    [TestClass]
     public class ConfigurationTests
     {
         private static Configuration config { get; set; }
@@ -14,12 +12,12 @@ namespace Wangkanai.Universal.Tests
             config = (Configuration)System.Configuration.ConfigurationManager.GetSection("AnalyticConfigurationSettings/AnalyticConfiguration");
         }
 
-        [TestMethod]
+        [Fact]
         public void TestConfigAccount()
         {
             Assert.AreEqual("UA-XXXX-Y", config.Account);
         }
-        [TestMethod]
+        [Fact]
         public void TestConfigProperty()
         {
             Assert.AreEqual("sathorn.co.th", config.Property);

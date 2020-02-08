@@ -1,12 +1,10 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Wangkanai.Universal.Tests
 {
-    [TestClass]
     public class EventTests
     {
-        [TestMethod]
+        [Fact]
         public void TestEventCategoryOnly()
         {
             Event categoryevent = new Event("button","click","submit","1");
