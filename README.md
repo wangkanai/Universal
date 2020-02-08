@@ -1,6 +1,6 @@
 ## Google Universal Analytics
 
-[![NuGet Badge](https://buildstats.info/nuget/wangkanai.universal)](https://www.nuget.org/packages/wangkanai.universal)
+[![NuGet Badge](https://buildstats.info/nuget/universal-analytics)](https://www.nuget.org/packages/universal-analytics)
 
 [![GitHub](https://img.shields.io/github/license/wangkanai/universal)](https://github.com/wangkanai/universal/blob/master/LICENSE)
 [![Open Collective](https://img.shields.io/badge/open%20collective-support%20me-3385FF.svg)](https://opencollective.com/wangkanai)
