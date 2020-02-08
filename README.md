@@ -7,6 +7,10 @@ Wangkanai Analytics is a [.NET Framework](https://docs.microsoft.com/en-gb/aspne
 
 #### How do i use it?
 
+```console
+Install-Package universal-analytics
+```
+
 This project provide the full source code and complied dll library for you to add reference into your visual studio projects. The library include Intellisense to help guide you write server-side code in an effective manner.
 
 ```csharp
