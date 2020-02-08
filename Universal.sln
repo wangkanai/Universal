@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solution
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal", "src\Wangkanai.Universal.csproj", "{A5378070-E2E0-486D-9264-8B8DE8B99DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wangkanai.Universal", "src\Wangkanai.Universal.csproj", "{A5378070-E2E0-486D-9264-8B8DE8B99DDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wangkanai.Universal.Tests", "test\Wangkanai.Universal.Tests.csproj", "{2340A951-1744-4AE8-B552-3764803AB825}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFramework", "sample\WebAppFramework\WebAppFramework.csproj", "{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormFrameworkOld", "sample\WebFormFrameworkOld\WebFormFrameworkOld.csproj", "{FEE3F77C-FE2D-4217-8105-20995792C401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormFramework", "sample\WebFormFramework\WebFormFramework.csproj", "{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{FEE3F77C-FE2D-4217-8105-20995792C401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE3F77C-FE2D-4217-8105-20995792C401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE3F77C-FE2D-4217-8105-20995792C401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF} = {6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}
 		{FEE3F77C-FE2D-4217-8105-20995792C401} = {6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}
+		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D} = {6E2E0037-157D-4FFE-8B8E-F3A41BA2C4D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FDFCC3E-4C24-4CC5-AE18-3641AB142F07}
