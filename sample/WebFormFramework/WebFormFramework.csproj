@@ -112,6 +112,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Cookie.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Ecommerce.aspx" />
+    <Content Include="Event.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -125,6 +127,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="App_Data\.empty" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Pageview.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -162,6 +165,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Cookie.aspx.cs">
+      <DependentUpon>Cookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookie.aspx.designer.cs">
+      <DependentUpon>Cookie.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,8 +179,29 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ecommerce.aspx.cs">
+      <DependentUpon>Ecommerce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ecommerce.aspx.designer.cs">
+      <DependentUpon>Ecommerce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Event.aspx.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Event.aspx.designer.cs">
+      <DependentUpon>Event.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pageview.aspx.cs">
+      <DependentUpon>Pageview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pageview.aspx.designer.cs">
+      <DependentUpon>Pageview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
