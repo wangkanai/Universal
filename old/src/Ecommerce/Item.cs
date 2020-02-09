@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Wangkanai.Universal.Ecommerce
+namespace GoogleAnalytics.Ecommerce
 {
     /// <summary>
     /// Tracks information about each individual item in the user's shopping cart and associates the item with each transaction

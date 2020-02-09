@@ -1,4 +1,4 @@
-﻿﻿namespace Wangkanai.Universal.Ecommerce
+﻿﻿namespace GoogleAnalytics.Ecommerce
 {
     public enum Currency
     {

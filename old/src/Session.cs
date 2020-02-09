@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Wangkanai.Universal.Ecommerce;
+ using GoogleAnalytics.Ecommerce;
 
-namespace Wangkanai.Universal
+ namespace GoogleAnalytics
 {
     public class Session
     {
@@ -17,7 +17,7 @@ namespace Wangkanai.Universal
         /// </summary>
         public string ClientId { get; set; }
         /// <summary>
-        /// This is intended to be a known identifier for a user/visitor provided by the site owner/tracking library user. It may not itself be PII. The value should never be persisted in GA cookies or other Wangkanai.Universal provided storage.
+        /// This is intended to be a known identifier for a user/visitor provided by the site owner/tracking library user. It may not itself be PII. The value should never be persisted in GA cookies or other GoogleAnalytics provided storage.
         /// </summary>       
         public string UserId { get; set; }
         public List<Event> Events { get; set; }

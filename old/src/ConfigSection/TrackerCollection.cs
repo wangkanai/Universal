@@ -1,7 +1,7 @@
 ﻿﻿using System;
 using System.Configuration;
 
-namespace Wangkanai.Universal.ConfigSection
+namespace GoogleAnalytics.ConfigSection
 {
     class TrackerCollection : ConfigurationElementCollection
     {

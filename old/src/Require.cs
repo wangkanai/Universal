@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Wangkanai.Universal
+namespace GoogleAnalytics
 {
     internal abstract class Require
     {

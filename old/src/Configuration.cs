@@ -1,6 +1,6 @@
 ﻿﻿using System.Configuration;
 
-namespace Wangkanai.Universal
+namespace GoogleAnalytics
 {
     public class Configuration : ConfigurationSection
     {

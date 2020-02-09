@@ -1,9 +1,9 @@
 ﻿﻿using System.Text;
 
-namespace Wangkanai.Universal
+namespace GoogleAnalytics
 {
     /// <summary>
-    /// This is a singleton service class that will interact with Google Wangkanai.Universal
+    /// This is a singleton service class that will interact with Google GoogleAnalytics
     /// </summary>
     public class Analytic
     {
@@ -24,7 +24,7 @@ namespace Wangkanai.Universal
         {
             if (session == null) session = new Session();           
             var js = new StringBuilder();
-            js.AppendLine("<!-- Google Wangkanai.Universal --><script>");
+            js.AppendLine("<!-- Google GoogleAnalytics --><script>");
             js.AppendLine(JsUniversalAnalyticJavascriptLibrary());
 
             // Create method
@@ -41,7 +41,7 @@ namespace Wangkanai.Universal
             // Send method
             //js.AppendLine(new Send(session).ToString());
 
-            js.AppendLine("</script><!-- End Google Wangkanai.Universal -->");
+            js.AppendLine("</script><!-- End Google GoogleAnalytics -->");
             return js.ToString();
         }
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Wangkanai.Universal
+namespace GoogleAnalytics
 {
     public class Set : Field
     {
@@ -118,7 +118,7 @@ namespace Wangkanai.Universal
         /// </summary>
         public string Title { get; set; }
         /// <summary>
-        /// The ID of a clicked DOM element, used to disambiguate multiple links to the same URL in In-Page Wangkanai.Universal reports when Enhanced Link Attribution is enabled for the property
+        /// The ID of a clicked DOM element, used to disambiguate multiple links to the same URL in In-Page GoogleAnalytics reports when Enhanced Link Attribution is enabled for the property
         /// </summary>
         public string LinkId { get; set; }
         #endregion

@@ -1,6 +1,6 @@
 ﻿﻿using System.Configuration;
 
-namespace Wangkanai.Universal.ConfigSection
+namespace GoogleAnalytics.ConfigSection
 {
     class TrackerElement : ConfigurationElement
     {

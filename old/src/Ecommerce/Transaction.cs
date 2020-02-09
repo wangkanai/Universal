@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Reflection;
 using System.Linq.Expressions;
-using Wangkanai.Universal.Ecommerce;
+using GoogleAnalytics.Ecommerce;
 
-namespace Wangkanai.Universal.Ecommerce
+namespace GoogleAnalytics.Ecommerce
 {
     /// <summary>
     /// Ecommerce tracking allows you to measure the number of transactions and revenue that your website generates
@@ -45,7 +45,7 @@ namespace Wangkanai.Universal.Ecommerce
         /// <param name="affiliation">The store or affiliation from which this transaction occurred (e.g. Acme Clothing).</param>
         /// <param name="shipping">Specifies the total shipping cost of the transaction. (e.g. 5)</param>
         /// <param name="tax">Specifies the total tax of the transaction. (e.g. 1.29)</param>
-        /// <param name="currency">currencies enumeration supported by Google Wangkanai.Universal ecommerce measurement</param>
+        /// <param name="currency">currencies enumeration supported by Google GoogleAnalytics ecommerce measurement</param>
         public Transaction(string id, string affiliation, double shipping, double tax, Currency currency)
             : this(id, affiliation, shipping, tax)
         {

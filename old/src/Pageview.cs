@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Wangkanai.Universal
+namespace GoogleAnalytics
 {
     /// <summary>
     /// Page tracking allows you to measure the number of views you had of a particular page on your web site
