@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		run.ps1 = run.ps1
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{618DE25A-7FF3-4ED3-9565-469E34AEF0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Universal", "sample\Universal\Universal.csproj", "{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,11 +53,26 @@ Global
 		{6C2636DE-CF83-40FB-A032-7EFE406A0B39}.Release|x64.Build.0 = Release|Any CPU
 		{6C2636DE-CF83-40FB-A032-7EFE406A0B39}.Release|x86.ActiveCfg = Release|Any CPU
 		{6C2636DE-CF83-40FB-A032-7EFE406A0B39}.Release|x86.Build.0 = Release|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Debug|x64.Build.0 = Debug|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Debug|x86.Build.0 = Debug|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|x64.ActiveCfg = Release|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|x64.Build.0 = Release|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|x86.ActiveCfg = Release|Any CPU
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C929748-442E-41EA-BDE9-78F2425319AB}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4} = {618DE25A-7FF3-4ED3-9565-469E34AEF0FF}
 	EndGlobalSection
 EndGlobal
