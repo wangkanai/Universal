@@ -26,8 +26,4 @@
       <PackageReference Include="Wangkanai.Detection" Version="3.0.0-alpha07" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Models" />
-    </ItemGroup>
-
 </Project>
