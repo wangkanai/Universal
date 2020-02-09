@@ -7,7 +7,7 @@ using Xunit;
 using Moq;
 using System.Reflection;
 
-namespace Wangkanai.Analytics.Test
+namespace Wangkanai.Analytics
 {
     public class AnalyticsServiceCollectionExtensionsTest
     {

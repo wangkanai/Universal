@@ -1,5 +1,6 @@
 ﻿﻿using System;
-using Xunit;
+ using GoogleAnalytics;
+ using Xunit;
 
 namespace Wangkanai.Universal
 {
