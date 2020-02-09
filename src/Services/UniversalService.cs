@@ -4,6 +4,4 @@
     {
         
     }
-    
-    internal class UniversalMarkerService{}
 }
