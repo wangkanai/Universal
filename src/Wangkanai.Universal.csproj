@@ -1,19 +1,7 @@
-﻿﻿﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>netcore3.0</TargetFramework>
-    
-    <Version>2.0</Version>
+<Project Sdk="Microsoft.NET.Sdk">
 
-    <Authors>Sarin Na Wangkanai</Authors>
-    <Description>Google Universal Analytics is a .NET Core lightweight server-side code that generator library that JavaScript client-side on the fly for Google Analytics analytics.js. The goal of the framework is to stay out of the way as much as possible and provide a super interaction with Google all from C#.</Description>
-    <Copyright>Copyright © 2012 Sarin Na Wangkanai</Copyright>
-    <PackageTags>aspnetcore;google;analytics;universal</PackageTags>
-    <PackageProjectUrl>https://github.com/wangkanai/universal</PackageProjectUrl>
-    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>git://github.com/wangkanai/universal</RepositoryUrl>
-    <PackageIconUrl>http://0.gravatar.com/avatar/f58457d38ab3bc43526c6e52af17494e</PackageIconUrl>
-    
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-  
+
 </Project>
