@@ -1,5 +1,7 @@
 ## Google Universal Analytics
 
+This old project my was developed back long time ago in the days of ASP.NET Full Framework. If you like me to upgrade this project using the design pattern my [Detection library](https://github.com/wangkanai/Detection). **Please me stars, when this project reach 100 stars. Then i will rebuild project for ASP.NET Core 3.0**.
+
 [![NuGet Badge](https://buildstats.info/nuget/universal-analytics)](https://www.nuget.org/packages/universal-analytics)
 
 [![GitHub](https://img.shields.io/github/license/wangkanai/universal)](https://github.com/wangkanai/universal/blob/master/LICENSE)
