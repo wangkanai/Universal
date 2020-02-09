@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\src\Wangkanai.Universal.csproj" />
+        <ProjectReference Include="..\GoogleAnalytics\GoogleAnalytics.csproj" />
     </ItemGroup>
 
 </Project>

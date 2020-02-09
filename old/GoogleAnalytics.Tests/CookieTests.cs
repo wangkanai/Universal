@@ -1,6 +1,7 @@
 ﻿﻿using System;
 using System.Text;
-using Xunit;
+ using GoogleAnalytics;
+ using Xunit;
 
 namespace Wangkanai.Universal
 {
@@ -22,7 +23,7 @@ namespace Wangkanai.Universal
         [Fact]
         public void TestCookieToString()
         {
-            var config = new Configuration();
+            var config = new GoogleAnalytics.Configuration();
             config.CookieDomain = "www.sathai.com";
             config.CookieName = "sathai";
             config.CookieExpires = 20000;
