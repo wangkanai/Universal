@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Version>2.0</Version>
+        <Description>Wangkanai Analytics is a .NET Core lightweight server-side code generator to client side library</Description>
+        <Copyright>Copyright © 2018 Sarin Na Wangkanai</Copyright>
+
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageTags>aspnetcore;analytics</PackageTags>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/wangkanai/Analytics.git</RepositoryUrl>
+        <PackageIconUrl>http://0.gravatar.com/avatar/f58457d38ab3bc43526c6e52af17494e</PackageIconUrl>
+        <PackageProjectUrl>https://github.com/wangkanai/Analytics</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/wangkanai/Analytics/blob/master/LICENSE</PackageLicenseUrl>
+        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0"/>
+    </ItemGroup>
+
+</Project>
