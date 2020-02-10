@@ -3,7 +3,9 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.0</TargetFramework>
 
-        <version>0.0.100</version>
+        <LangVersion>8.0</LangVersion>
+        <Nullable>enable</Nullable>
+        <Version>0.0.100</Version>
 
         <Authors>Sarin Na Wangkanai</Authors>
         <Description>Google Universal Analytics is a .NET Core lightweight server-side code that generator library that JavaScript client-side on the fly for Google Analytics analytics.js. The goal of this library is to stay out of the way as much as possible and provide a super interaction with Google all from C#.</Description>
