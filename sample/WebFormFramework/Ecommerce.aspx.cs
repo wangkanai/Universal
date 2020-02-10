@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Wangkanai.Universal;
-using Wangkanai.Universal.Ecommerce;
+using GoogleAnalytics;
+using GoogleAnalytics.Ecommerce;
 
 namespace WebFormFramework
 {

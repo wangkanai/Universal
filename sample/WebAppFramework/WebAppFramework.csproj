@@ -174,9 +174,13 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Wangkanai.Universal.csproj">
-      <Project>{a5378070-e2e0-486d-9264-8b8de8b99dde}</Project>
-      <Name>Wangkanai.Universal</Name>
+    <ProjectReference Include="..\..\old\GoogleAnalytics\GoogleAnalytics.csproj">
+      <Project>{d2c55e94-6915-4be6-8f6c-7ab1db0dc9bc}</Project>
+      <Name>GoogleAnalytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\old\UniversalAnalytics\UniversalAnalytics.csproj">
+      <Project>{580a8022-272b-45e2-b5a8-51913b8c424d}</Project>
+      <Name>UniversalAnalytics</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

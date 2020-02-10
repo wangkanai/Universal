@@ -10,7 +10,7 @@
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
-        <%= Wangkanai.Universal.Analytic.Instance.Render(AnalyticsSession) %>
+        <%= GoogleAnalytics.Analytic.Instance.Render(AnalyticsSession) %>
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
@@ -62,7 +62,7 @@
         <div class="container body-content">
             <h2><%: Page.Title %></h2>
             <hr />
-            <pre><code><%: Wangkanai.Universal.Analytic.Instance.Render(AnalyticsSession) %></code></pre>
+            <pre><code><%: GoogleAnalytics.Analytic.Instance.Render(AnalyticsSession) %></code></pre>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />

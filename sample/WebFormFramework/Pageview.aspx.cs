@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using Wangkanai.Universal;
+using GoogleAnalytics;
+
 
 namespace WebFormFramework
 {
@@ -13,7 +9,7 @@ namespace WebFormFramework
         protected void Page_Load(object sender, EventArgs e)
         {
             var session = new Session();
-            session.Pageview = new Wangkanai.Universal.Pageview("/home/pageview", "real-time visitor");
+            session.Pageview = new GoogleAnalytics.Pageview("/home/pageview", "real-time visitor");
             (Master as SiteMaster).AnalyticsSession = session;
         }
     }
