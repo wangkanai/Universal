@@ -49,6 +49,8 @@ namespace Universal
 
             app.UseAuthorization();
 
+            app.UseGoogleAnalytics();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
