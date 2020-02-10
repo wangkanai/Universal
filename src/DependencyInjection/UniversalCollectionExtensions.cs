@@ -27,13 +27,13 @@ namespace Microsoft.Extensions.DependencyInjection
             => services.Configure(setAction)
                        .AddGoogleAnalytics();
 
-        private static IUniversalBuilder AddGoogleAnalytics(this IServiceCollection services)
+        internal static IUniversalBuilder AddGoogleAnalytics(this IServiceCollection services)
             => services.AddUniversalBuilder()
                        .AddRequiredPlatformServices()
                        .AddCoreServices()
                        .AddMarkerService();
 
-        private static IUniversalBuilder AddUniversalBuilder(this IServiceCollection services)
+        internal static IUniversalBuilder AddUniversalBuilder(this IServiceCollection services)
             => new UniversalBuilder(services);
     }
 }
