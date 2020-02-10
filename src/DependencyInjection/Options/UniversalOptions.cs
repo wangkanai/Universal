@@ -2,6 +2,6 @@
 {
     public class UniversalOptions
     {
-        public string Account { get; set; }
+        public string TrackingId { get; set; }
     }
 }

@@ -28,7 +28,7 @@ Add the service to your web app.
 public void ConfigureServices(IServiceCollection services)
 {
     // Add application services.
-    services.AddGoogleAnalytics("UA-XXXX-Y");
+    services.AddGoogleAnalytics("UA-XXXXXX-Y");
 
     // Add framework services.
     services.AddMvc();    
