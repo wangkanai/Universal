@@ -5,11 +5,15 @@ This old project my was developed back long time ago in the days of ASP.NET Full
 **Please give me appreciation and click stars, when this project reach 100 stars. I will rebuild project for ASP.NET Core 3.0**.
 But you wanna contract me to get start development of the a migration to ASP.NET Core for your production requirement and long term support. Please contact me personally and we can discuss the details.  
 
-[![NuGet Badge](https://buildstats.info/nuget/universal-analytics)](https://www.nuget.org/packages/universal-analytics)
-
 [![GitHub](https://img.shields.io/github/license/wangkanai/universal)](https://github.com/wangkanai/universal/blob/master/LICENSE)
 [![Open Collective](https://img.shields.io/badge/open%20collective-support%20me-3385FF.svg)](https://opencollective.com/wangkanai)
 [![Patreon](https://img.shields.io/badge/patreon-support%20me-d9643a.svg)](https://www.patreon.com/wangkanai)
+
+[![NuGet Badge](https://buildstats.info/nuget/wangkanai.universal)](https://www.nuget.org/packages/wangkanai.universal)
+[![NuGet Badge](https://buildstats.info/nuget/wangkanai.universal?includePreReleases=true)](https://www.nuget.org/packages/wangkanai.universal)
+[![MyGet Badge](https://buildstats.info/myget/wangkanai/Wangkanai.universal)](https://www.myget.org/feed/wangkanai/package/nuget/Wangkanai.universal)
+
+[![Build history](https://buildstats.info/appveyor/chart/wangkanai/universal)](https://ci.appveyor.com/project/wangkanai/universal/history)
 
 ### What is Google Universal Analytics?
 
@@ -39,7 +43,6 @@ public void ConfigureServices(IServiceCollection services)
 - [Display Features](https://developers.google.com/analytics/devguides/collection/analyticsjs/display-features)
 - [Enhanced link attribution](https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-link-attribution)
 - [Linker](https://developers.google.com/analytics/devguides/collection/analyticsjs/linker)
-
 
 #### Where it originated from?
 This original library that was introduced in [CodePlex](https://archive.codeplex.com/?p=universalanalytics). The library was for .NET Framework web application to render **analytics.js** javascript client-side to interact with Google API from .NET language web application within the server-side code environment. Both ASP.NET WebForm and ASP.NET MVC. Its was good, but we would like to see a much more extensible and ambust platform, so we are rewriting the entire framework.
