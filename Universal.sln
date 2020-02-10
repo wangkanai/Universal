@@ -11,26 +11,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		.github\workflows\dotnetcore.yml = .github\workflows\dotnetcore.yml
+		.github\FUNDING.yml = .github\FUNDING.yml
 		README.md = README.md
 		run.ps1 = run.ps1
-		appveyor.yml = appveyor.yml
-		.github\FUNDING.yml = .github\FUNDING.yml
-		.github\workflows\dotnetcore.yml = .github\workflows\dotnetcore.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{618DE25A-7FF3-4ED3-9565-469E34AEF0FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Universal", "sample\Universal\Universal.csproj", "{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Universal", "sample\Universal\Universal.csproj", "{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "old", "old", "{B31F8BA3-D84C-4616-A9A5-B64A022D7075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalytics", "old\GoogleAnalytics\GoogleAnalytics.csproj", "{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleAnalytics", "old\GoogleAnalytics\GoogleAnalytics.csproj", "{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalytics.Tests", "old\GoogleAnalytics.Tests\GoogleAnalytics.Tests.csproj", "{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleAnalytics.Tests", "old\GoogleAnalytics.Tests\GoogleAnalytics.Tests.csproj", "{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalAnalytics", "old\UniversalAnalytics\UniversalAnalytics.csproj", "{580A8022-272B-45E2-B5A8-51913B8C424D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversalAnalytics", "old\UniversalAnalytics\UniversalAnalytics.csproj", "{580A8022-272B-45E2-B5A8-51913B8C424D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalAnalytics.Tests", "old\UniversalAnalytics.Tests\UniversalAnalytics.Tests.csproj", "{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversalAnalytics.Tests", "old\UniversalAnalytics.Tests\UniversalAnalytics.Tests.csproj", "{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFramework", "sample\WebAppFramework\WebAppFramework.csproj", "{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}"
 EndProject
@@ -83,7 +83,6 @@ Global
 		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|x86.ActiveCfg = Release|Any CPU
 		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4}.Release|x86.Build.0 = Release|Any CPU
 		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}.Debug|x64.Build.0 = Debug|Any CPU
 		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -95,7 +94,6 @@ Global
 		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}.Release|x86.ActiveCfg = Release|Any CPU
 		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC}.Release|x86.Build.0 = Release|Any CPU
 		{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}.Debug|x64.Build.0 = Debug|Any CPU
 		{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -107,7 +105,6 @@ Global
 		{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}.Release|x86.ActiveCfg = Release|Any CPU
 		{84AC0A95-5BC8-4D8D-9BBA-6EAA185B178B}.Release|x86.Build.0 = Release|Any CPU
 		{580A8022-272B-45E2-B5A8-51913B8C424D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{580A8022-272B-45E2-B5A8-51913B8C424D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580A8022-272B-45E2-B5A8-51913B8C424D}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{580A8022-272B-45E2-B5A8-51913B8C424D}.Debug|x64.Build.0 = Debug|Any CPU
 		{580A8022-272B-45E2-B5A8-51913B8C424D}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -119,7 +116,6 @@ Global
 		{580A8022-272B-45E2-B5A8-51913B8C424D}.Release|x86.ActiveCfg = Release|Any CPU
 		{580A8022-272B-45E2-B5A8-51913B8C424D}.Release|x86.Build.0 = Release|Any CPU
 		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}.Debug|x64.Build.0 = Debug|Any CPU
 		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -131,7 +127,6 @@ Global
 		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}.Release|x86.ActiveCfg = Release|Any CPU
 		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC}.Release|x86.Build.0 = Release|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Debug|x64.Build.0 = Debug|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -143,7 +138,6 @@ Global
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Release|x86.ActiveCfg = Release|Any CPU
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF}.Release|x86.Build.0 = Release|Any CPU
 		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Debug|x64.Build.0 = Debug|Any CPU
 		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -158,9 +152,6 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1C929748-442E-41EA-BDE9-78F2425319AB}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{99B26A78-1FB3-4D46-B8AA-258D49FBF4E4} = {618DE25A-7FF3-4ED3-9565-469E34AEF0FF}
 		{D2C55E94-6915-4BE6-8F6C-7AB1DB0DC9BC} = {B31F8BA3-D84C-4616-A9A5-B64A022D7075}
@@ -169,5 +160,8 @@ Global
 		{74D8FCD0-8DBD-40C2-BAC5-CBFB760F2ACC} = {B31F8BA3-D84C-4616-A9A5-B64A022D7075}
 		{92FC9D44-4477-4A29-8FF5-8CEA2EFAE6DF} = {618DE25A-7FF3-4ED3-9565-469E34AEF0FF}
 		{A7701AFD-CC23-4D27-9CF3-4D7480AB9A3D} = {618DE25A-7FF3-4ED3-9565-469E34AEF0FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C929748-442E-41EA-BDE9-78F2425319AB}
 	EndGlobalSection
 EndGlobal
