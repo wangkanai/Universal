@@ -12,7 +12,7 @@ But you wanna contract me to get start development of the a migration to ASP.NET
 
 [![NuGet Badge](https://buildstats.info/nuget/wangkanai.universal)](https://www.nuget.org/packages/wangkanai.universal)
 [![NuGet Badge](https://buildstats.info/nuget/wangkanai.universal?includePreReleases=true)](https://www.nuget.org/packages/wangkanai.universal)
-[![MyGet Badge](https://buildstats.info/myget/wangkanai/Wangkanai.universal)](https://www.myget.org/feed/wangkanai/package/nuget/Wangkanai.universal)
+[![MyGet Badge](https://buildstats.info/myget/wangkanai/wangkanai.universal)](https://www.myget.org/feed/wangkanai/package/nuget/wangkanai.universal)
 
 [![Build history](https://buildstats.info/appveyor/chart/wangkanai/universal)](https://ci.appveyor.com/project/wangkanai/universal/history)
 
@@ -26,6 +26,7 @@ Add the NuGet package to your project.
 
 ```console
 Install-Package Wangkanai.Universal
+```
 
 Add the service to your web app.
 

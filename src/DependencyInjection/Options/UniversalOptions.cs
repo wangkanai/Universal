@@ -3,6 +3,7 @@
     public class UniversalOptions
     {
         public string TrackingId { get; set; }
+        
         public bool Async { get; set; }
     }
 }
