@@ -17,31 +17,23 @@ Wangkanai Analytics is a [.NET Framework](https://docs.microsoft.com/en-gb/aspne
 
 #### How do i use it?
 
-```console
-Install-Package universal-analytics
-```
+Add the NuGet package to your project.
 
-This project provide the full source code and complied dll library for you to add reference into your visual studio projects. The library include Intellisense to help guide you write server-side code in an effective manner.
+```console
+Install-Package Wangkanai.Universal
+
+Add the service to your web app.
 
 ```csharp
-public ActionResult Ecommerce()
+public void ConfigureServices(IServiceCollection services)
 {
-    var session = new Wangkanai.Universal.Session();
-    session.Transaction = new Transaction("1234", "store", 1.0, 1.0);
-    session.Transaction.Items.Add(new Item("product a", "a001", "xxx", 2.0, 1));
-    session.Transaction.Items.Add(new Item("product b", "b001", "yyy", 3.0, 2));
-    ViewBag.AnalyticsSession = session;
-    return View();
+    // Add application services.
+    services.AddGoogleAnalytics("UA-XXXX-Y");
+
+    // Add framework services.
+    services.AddMvc();    
 }
 ```
-
-### Features
-
-![IntelliSense](https://raw.githubusercontent.com/wangkanai/Universal/master/asset/vs-intellisense.png)
-
-### Demo
-
-![Mvc Demo Web App](https://raw.githubusercontent.com/wangkanai/Universal/master/asset/web-sample.png)
 
 #### Official Plugins extensions
 - [Display Features](https://developers.google.com/analytics/devguides/collection/analyticsjs/display-features)
