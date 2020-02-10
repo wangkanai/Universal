@@ -43,12 +43,6 @@ public ActionResult Ecommerce()
 
 ![Mvc Demo Web App](https://raw.githubusercontent.com/wangkanai/Universal/master/asset/web-sample.png)
 
-#### Official Plugins extensions
-- [Display Features](https://developers.google.com/analytics/devguides/collection/analyticsjs/display-features)
-- [Enhanced link attribution](https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-link-attribution)
-- [Linker](https://developers.google.com/analytics/devguides/collection/analyticsjs/linker)
-
-
 #### Where it originated from?
 This original library that was introduced in [CodePlex](https://archive.codeplex.com/?p=universalanalytics). The library was for .NET Framework web application to render **analytics.js** javascript client-side to interact with Google API from .NET language web application within the server-side code environment. Both ASP.NET WebForm and ASP.NET MVC. Its was good, but we would like to see a much more extensible and ambust platform, so we are rewriting the entire framework.
 
