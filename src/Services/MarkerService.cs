@@ -1,4 +1,7 @@
 ﻿namespace Wangkanai.Universal.Services
 {
-    internal class UniversalMarkerService{}
+    internal class UniversalMarkerService
+    {
+        
+    }
 }
