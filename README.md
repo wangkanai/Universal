@@ -6,6 +6,7 @@ This old project my was developed back long time ago in the days of ASP.NET Full
 But you wanna contract me to get start development of the a migration to ASP.NET Core for your production requirement and long term support. Please contact me personally and we can discuss the details.  
 
 [![NuGet Badge](https://buildstats.info/nuget/universal-analytics)](https://www.nuget.org/packages/universal-analytics)
+[![NuGet Badge](https://buildstats.info/nuget/universal-analytics?includePreReleases=true)](https://www.nuget.org/packages/universal-analytics)
 
 [![GitHub](https://img.shields.io/github/license/wangkanai/universal)](https://github.com/wangkanai/universal/blob/master/LICENSE)
 [![Open Collective](https://img.shields.io/badge/open%20collective-support%20me-3385FF.svg)](https://opencollective.com/wangkanai)
