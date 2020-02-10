@@ -30,7 +30,7 @@ deploy:
   server: https://www.myget.org/F/wangkanai/api/v2/package
   api_key:
     secure: YY8jIrOCrsuVBg/iqwS2jVwZ462EWKFMZ+95fBEDqM1DiH0H2w7OMgUx3rQ3XTzl
-  artifact: /.*\.nupkg/
+  artifact: /.*\wangkanai.*.nupkg/
   on:
     branch: dev
 - provider: NuGet
@@ -38,6 +38,6 @@ deploy:
   username: wangkanai
   api_key:
     secure: +WL9sBLNxRSwSRTu5btK/smYjwDFZjIGjg5P676G7O9UpGyJr5Hzi32SQruRS9EF
-  artifact: /.*\.nupkg/ 
+  artifact: /.*\wangkanai.*.nupkg/
   on:
     branch: dev
