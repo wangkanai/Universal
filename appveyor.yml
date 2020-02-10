@@ -1,4 +1,4 @@
-version: 3.0.0-build{build}
+version: 0.0.100-build{build}
 image:
   - Visual Studio 2019
 init:
@@ -15,7 +15,6 @@ pull_requests:
   do_not_increment_build_number: true
 branches:
   only:
-    - master
     - dev
     - /^feature\/.$/
     - /^release\/.$/
@@ -34,13 +33,6 @@ deploy:
   artifact: /.*\.nupkg/
   on:
     branch: dev
-- provider: NuGet
-  server: https://www.myget.org/F/wangkanai/api/v2/package
-  api_key:
-    secure: YY8jIrOCrsuVBg/iqwS2jVwZ462EWKFMZ+95fBEDqM1DiH0H2w7OMgUx3rQ3XTzl
-  artifact: /.*\.nupkg/
-  on:
-    branch: master
 - provider: NuGet
   server: https://nuget.pkg.github.com/wangkanai/index.json
   username: wangkanai
