@@ -5,6 +5,7 @@ This old project my was developed back long time ago in the days of ASP.NET Full
 **Please give me appreciation and click stars, when this project reach 100 stars. I will rebuild project for ASP.NET Core 3.0**.
 But you wanna contract me to get start development of the a migration to ASP.NET Core for your production requirement and long term support. Please contact me personally and we can discuss the details.  
 
+[![Build status](https://ci.appveyor.com/api/projects/status/k7vt83ntq336pvid?svg=true)](https://ci.appveyor.com/project/wangkanai/universal)
 [![GitHub](https://img.shields.io/github/license/wangkanai/universal)](https://github.com/wangkanai/universal/blob/master/LICENSE)
 [![Open Collective](https://img.shields.io/badge/open%20collective-support%20me-3385FF.svg)](https://opencollective.com/wangkanai)
 [![Patreon](https://img.shields.io/badge/patreon-support%20me-d9643a.svg)](https://www.patreon.com/wangkanai)
