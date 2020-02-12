@@ -2,7 +2,7 @@
 
 This old project my was developed back long time ago in the days of ASP.NET Full Framework around 2013. If you like me to upgrade this project using the design pattern my [Detection library](https://github.com/wangkanai/Detection). 
 
-**Please give me appreciation and click stars, when this project reach 100 stars. I will rebuild project for ASP.NET Core 3.0**.
+**Please give me appreciation and click stars :star::star::star:, when this project reach 100 stars. I will rebuild project for ASP.NET Core 3.0**.
 But you wanna contract me to get start development of the a migration to ASP.NET Core for your production requirement and long term support. Please contact me personally and we can discuss the details.  
 
 [![NuGet Badge](https://buildstats.info/nuget/universal-analytics)](https://www.nuget.org/packages/universal-analytics)
